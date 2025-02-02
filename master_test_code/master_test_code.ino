@@ -10,8 +10,8 @@
 
 int M1_Speed = 80; 
 int M2_Speed = 80; 
-int LeftRotationSpeed = 120;  
-int RightRotationSpeed = 120; 
+int LeftRotationSpeed = 130;  
+int RightRotationSpeed = 130; 
 
 Servo myServo; 
 
