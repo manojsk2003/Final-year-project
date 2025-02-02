@@ -113,9 +113,9 @@ void sendMoistureData() {
   int moistureValue = analogRead(MOISTURE_PIN);  
   int moisturePercent = map(moistureValue, 1023, 0, 0, 100);  
 
-  Serial.print("Moisture: ");
-  Serial.print(moisturePercent);
-  Serial.println("%");
+  // Serial.print("Moisture: ");
+  // Serial.print(moisturePercent);
+  // Serial.println("%");
 
   if (moisturePercent < 5) {  
     Serial.print("irrigate");
